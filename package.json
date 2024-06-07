@@ -1,0 +1,16 @@
+{
+  "name": "magical-arena",
+  "version": "1.0.0",
+  "description": "A simple magical arena game simulation",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.2",
+    "mocha": "^10.4.0",
+    "typescript": "^5.4.5"
+  }
+}

@@ -1,0 +1,18 @@
+"use strict";
+// const Player = require('./Player');
+// const MagicalArena = require('./MagicalArena');
+Object.defineProperty(exports, "__esModule", { value: true });
+// const arena = new MagicalArena();
+// const playerA = new Player(50, 5, 10);
+// const playerB = new Player(100, 10, 5);
+// arena.addPlayer(playerA);
+// arena.addPlayer(playerB);
+// arena.startMatch(0, 1);
+var Player_1 = require("./Player");
+var MagicalArena_1 = require("./MagicalArena");
+var arena = new MagicalArena_1.default();
+var playerA = new Player_1.default(50, 5, 10);
+var playerB = new Player_1.default(100, 10, 5);
+arena.addPlayer(playerA);
+arena.addPlayer(playerB);
+arena.startMatch(0, 1);
